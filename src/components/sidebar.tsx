@@ -4,10 +4,12 @@
  * root directory of this project.
  */
 
-export default function Page() {
+import Link from 'next/link'
+
+export default function Sidebar() {
   return (
-    <main>
-      
-    </main>
+    <aside className='bg-base-300 top-0 left-0 w-48 h-screen m-6 rounded-lg'>
+
+    </aside>
   )
 }

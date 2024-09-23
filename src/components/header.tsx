@@ -4,10 +4,12 @@
  * root directory of this project.
  */
 
-export default function Page() {
+import Link from 'next/link'
+
+export default function Header() {
   return (
-    <main>
-      
-    </main>
+    <header className='bg-base-300 top-0 left-0 w-screen h-16 m-6 ml-0 rounded-lg'>
+      Oxide RMM
+    </header>
   )
 }

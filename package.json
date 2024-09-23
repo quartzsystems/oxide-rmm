@@ -6,13 +6,17 @@
     "email": "cody.wellman@quartz.systems"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.20",
     "next": "^14.2.12",
+    "postcss": "^8.4.47",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.12"
   },
   "devDependencies": {
     "@types/node": "^22.5.5",
     "@types/react": "^18.3.8",
+    "daisyui": "^4.12.10",
     "typescript": "^5.6.2"
   },
   "scripts": {

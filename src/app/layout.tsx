@@ -4,7 +4,9 @@
  * root directory of this project.
  */
 
-import React from "react"
+import Sidebar from '../components/sidebar'
+import Header from '../components/header'
+import './globals.css'
 
 export default function RootLayout({
   children,
@@ -12,8 +14,13 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang='en'>
+      <body className='flex flex-row'>
+        <Sidebar></Sidebar>
+        <Header></Header>
+        {children}
+        <script src="https://kit.fontawesome.com/183cb9658c.js" crossOrigin="anonymous"></script>
+      </body>
     </html>
   )
 }
